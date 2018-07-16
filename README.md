@@ -9,22 +9,21 @@ Input data and test data are included in their respective folders
 
 -------------------------------------------------------------------------------------------
 Included packages description:
-Package               	  Description
 
-CNN_model.py              implements a convolutional neural 
+CNN_model.py              --- implements a convolutional neural 
 			  network and trains it on given set 
 			  of images
 			  
-image_read.py             reads images from their folders and 
+image_read.py             --- reads images from their folders and 
 			  turns theim into sets of training/testing data
 			  
-recognising_pictures.py   uses trained in CNN model to recognize hands on 
+recognising_pictures.py   --- uses trained in CNN model to recognize hands on 
 			  bigger image
 			  
-find_hands 		  implements functions for finding and higlighting 
+find_hands 		  --- implements functions for finding and higlighting 
 			  hands clases
 			  
-selective_search          finds areas, that are deemed suspicious(they may 
+selective_search          --- finds areas, that are deemed suspicious(they may 
 			  contain an object) and finds most plausible of them
 
 USAGE: package recognising_pictures.py implements image checking from folder 
